@@ -80,7 +80,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [yarn](https://yarnpkg.com/)  
 
 [Expo CLI](https://docs.expo.io/workflow/expo-cli/?redirected)
-
+<br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
 <!-- [Express.js](https://expressjs.com/)  
@@ -90,7 +90,6 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [SQLite](https://www.sqlite.org/)  
 
 [Git Bash](https://gitforwindows.org/)   -->
-<br>
 
 ## :books: **_important topics:_**  
 
