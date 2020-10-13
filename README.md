@@ -1,8 +1,8 @@
 <!-- [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/marcelosperalta/mock-up_e-learning_platform) -->
 
-# E-learning platform mock-up
+# "Happy" - Orphanage finder to visit  
 
-An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, and **[SQLite](https://www.sqlite.org/)**.  
+A platform to find Orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, and **[SQLite](https://www.sqlite.org/)**.  
 
 <br>
 
@@ -76,6 +76,8 @@ An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CS
 [Node.js](https://nodejs.org/en/)  
 
 [yarn](https://yarnpkg.com/)  
+
+[Expo CLI](https://docs.expo.io/workflow/expo-cli/?redirected)
 
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
