@@ -11,9 +11,7 @@ A platform to find Orphanages to visit built with **[HTML](https://whatwg.org/)*
 &nbsp;
 <img src="./readme/logo_css.png" width="70">
 &nbsp;
-&nbsp;
 <img src="./readme/logo_javascript.png" width="70">
-&nbsp;
 &nbsp;
 <img src="./readme/logo_typescript.png" width="70">
 &nbsp;
