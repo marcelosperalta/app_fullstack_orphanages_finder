@@ -2,20 +2,20 @@
 
 # "Happy" - Orphanage finder to visit  
 
-A platform to find Orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, and **[SQLite](https://www.sqlite.org/)**.  
+A platform to find Orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, and **[SQLite](https://www.sqlite.org/)**.  
 
 <br>
 
 <div align="center">
-<img src="./readme/logos/HTML5.png" width="69">
+<img src="./readme/logo_html.png" width="69">
 &nbsp;
-<img src="./readme/logos/CSS3.png" width="50">
-&nbsp;
-&nbsp;
-<img src="./readme/logos/JS.png" width="70">
+<img src="./readme/logo_css.png" width="50">
 &nbsp;
 &nbsp;
-<img src="./readme/logos/node.png" width="110">
+<img src="./readme/logo_javascript.png" width="70">
+&nbsp;
+&nbsp;
+<img src="./readme/logo_typescript.png" width="110">
 &nbsp;
 <img src="./readme/logos/expressjs.png" width="230">
 &nbsp;
