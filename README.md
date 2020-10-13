@@ -8,7 +8,6 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 <div align="center">
 <img src="./readme/logo_html.png" width="70">
-&nbsp;
 <img src="./readme/logo_css.png" width="70">
 &nbsp;
 <img src="./readme/logo_javascript.png" width="70">
