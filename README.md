@@ -79,7 +79,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [yarn](https://yarnpkg.com/)  
 
-[Expo CLI](https://docs.expo.io/workflow/expo-cli/?redirected)
+[Expo CLI](https://docs.expo.io/workflow/expo-cli/?redirected)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
