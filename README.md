@@ -2,7 +2,7 @@
 
 # "Happy" - Orphanage finder to visit  
 
-A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, and **[SQLite](https://www.sqlite.org/)**.  
+A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[React](https://reactjs.org/)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, and **[SQLite](https://www.sqlite.org/)**.  
 
 <br>
 
@@ -14,6 +14,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 &nbsp;
 &nbsp;
 <img src="./readme/logo_typescript.png" width="70">
+&nbsp;
+<img src="./readme/logo_react.png" width="70">
 &nbsp;
 <img src="./readme/logos/expressjs.png" width="70">
 &nbsp;
