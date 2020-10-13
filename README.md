@@ -31,9 +31,9 @@ An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CS
 
 #### [Next Level Week #3](https://nextlevelweek.com/)
 
-*Discovery* with [Mayk Brito](https://github.com/maykbrito)  
+*OmniStack* with [Diego Fernandes](https://github.com/diego3g)  
 
-![nlw3](./readme/logos/nwl2.jpg)
+![nlw3](./readme/nlw3.jpg)
 <br>
 
 ## :camera: **_screenshots:_**  
@@ -53,35 +53,37 @@ An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CS
 
 ## :wrench: **_tools "Front-end":_**  
 
-[Microsoft Edge](https://www.microsoft.com/en-us/edge)  
+<!-- [Microsoft Edge](https://www.microsoft.com/en-us/edge)  
 
-[Google Chrome](https://www.google.com/chrome/)  
+[Google Chrome](https://www.google.com/chrome/)   -->
 
 [Visual Studio Code](https://code.visualstudio.com/)  
 
-[Visual Studio Code Extension "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
+<!-- [Visual Studio Code Extension "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
 
-[Visual Studio Code Extension "Launchbase Theme"](https://marketplace.visualstudio.com/items?itemName=maykbrito.theme-launchbase)  
+[Visual Studio Code Extension "Launchbase Theme"](https://marketplace.visualstudio.com/items?itemName=maykbrito.theme-launchbase)   -->
 
 [Figma](https://www.figma.com/)  
 <br>
 
 ## :hammer: **_tools "Back-end":_**  
 
-[Git Bash](https://gitforwindows.org/)  
+[npm](https://docs.npmjs.com/)  
 
 [Node.js](https://nodejs.org/en/)  
 
-[Express.js](https://expressjs.com/)  
+[Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
+
+<!-- [Express.js](https://expressjs.com/)  
 
 [Nunjucks](https://mozilla.github.io/nunjucks/)  
 
 [SQLite](https://www.sqlite.org/)  
 
-[Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
+[Git Bash](https://gitforwindows.org/)   -->
 <br>
 
-## :dvd: **_install package.json dependencies:_**
+<!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
 ```
@@ -119,4 +121,4 @@ http://localhost:5500/
 
 [How to Write an Awesome GitHub README](https://healeycodes.com/github/beginners/tutorial/productivity/2019/04/14/writing-an-awesome-github-readme.html)  
 
-[EMOJI CHEAT SHEET](https://www.webfx.com/tools/emoji-cheat-sheet/)  
+[EMOJI CHEAT SHEET](https://www.webfx.com/tools/emoji-cheat-sheet/)   -->
