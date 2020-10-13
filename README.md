@@ -51,13 +51,15 @@ An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CS
 ![dar-aulas](./readme/screenshots/give-classes.png)  
 <br>
 
+## :fire: **_Source code editor_**  
+
+[Visual Studio Code](https://code.visualstudio.com/)  
+
 ## :wrench: **_tools "Front-end":_**  
 
 <!-- [Microsoft Edge](https://www.microsoft.com/en-us/edge)  
 
 [Google Chrome](https://www.google.com/chrome/)   -->
-
-[Visual Studio Code](https://code.visualstudio.com/)  
 
 <!-- [Visual Studio Code Extension "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
 
@@ -71,6 +73,8 @@ An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CS
 [npm](https://docs.npmjs.com/)  
 
 [Node.js](https://nodejs.org/en/)  
+
+[yarn](https://yarnpkg.com/)  
 
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
