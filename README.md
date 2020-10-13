@@ -17,6 +17,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 &nbsp;
 <img src="./readme/logo_react.png" width="70">
 &nbsp;
+<img src="./readme/logo_nodejs.png" width="70">
+&nbsp;
 <img src="./readme/logos/expressjs.png" width="70">
 &nbsp;
 &nbsp;
@@ -98,7 +100,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern#Uncoupled)  
 
-[]()  
+[Single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
