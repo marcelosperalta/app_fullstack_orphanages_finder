@@ -90,6 +90,16 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Git Bash](https://gitforwindows.org/)   -->
 <br>
 
+## :: **_important topics:_**  
+
+[Representational state transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer)  
+
+[JSON](https://www.json.org/)  
+
+[Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern#Uncoupled)  
+
+[]()  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
