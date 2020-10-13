@@ -7,20 +7,20 @@ A platform to find Orphanages to visit built with **[HTML](https://whatwg.org/)*
 <br>
 
 <div align="center">
-<img src="./readme/logo_html.png" width="69">
+<img src="./readme/logo_html.png" width="70">
 &nbsp;
-<img src="./readme/logo_css.png" width="50">
+<img src="./readme/logo_css.png" width="70">
 &nbsp;
 &nbsp;
 <img src="./readme/logo_javascript.png" width="70">
 &nbsp;
 &nbsp;
-<img src="./readme/logo_typescript.png" width="110">
+<img src="./readme/logo_typescript.png" width="70">
 &nbsp;
-<img src="./readme/logos/expressjs.png" width="230">
+<img src="./readme/logos/expressjs.png" width="70">
 &nbsp;
 &nbsp;
-<img src="./readme/logos/SQLite.png" width="150">
+<img src="./readme/logos/SQLite.png" width="70">
 </div>
 
 <br>
