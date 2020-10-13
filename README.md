@@ -72,7 +72,7 @@ An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CS
 
 [Node.js](https://nodejs.org/en/)  
 
-[Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)  
+<!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
 <!-- [Express.js](https://expressjs.com/)  
 
