@@ -54,6 +54,7 @@ An E-learning platform mock-up built with **[HTML](https://whatwg.org/)**, **[CS
 ## :fire: **_Source code editor_**  
 
 [Visual Studio Code](https://code.visualstudio.com/)  
+<br>
 
 ## :wrench: **_tools "Front-end":_**  
 
