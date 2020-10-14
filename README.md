@@ -70,6 +70,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [React Router](https://reactrouter.com/web/guides/quick-start)  
 
+[Leaflet](https://leafletjs.com/)  
+
 ## :hammer: **_tools "Back-end":_**  
 
 [Node.js](https://nodejs.org/en/)  
