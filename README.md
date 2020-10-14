@@ -68,6 +68,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [React Icons](https://react-icons.github.io/react-icons/)  
 
+[React Router](https://reactrouter.com/web/guides/quick-start)  
+
 ## :hammer: **_tools "Back-end":_**  
 
 [Node.js](https://nodejs.org/en/)  
@@ -146,10 +148,22 @@ _install react icons:_
 yarn add react-icons
 ```
 
-or
+or  
 
 ```
 npm install react-icons
+```
+
+_install react router:_  
+
+```
+yarn add react-router-dom
+```
+
+or  
+
+```
+npm install react-router-dom
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
