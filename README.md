@@ -127,7 +127,6 @@ cd web
 code .
 ```
 
-
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
