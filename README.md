@@ -68,6 +68,10 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [OpenStreetMap](https://www.openstreetmap.org/)  
 
+[mapbox](https://www.mapbox.com/)  
+
+[Google Maps Platform](https://cloud.google.com/maps-platform)  
+
 ## :hammer: **_tools "Back-end":_**  
 
 [Node.js](https://nodejs.org/en/)  
