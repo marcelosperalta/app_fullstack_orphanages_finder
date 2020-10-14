@@ -103,6 +103,10 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [Babel](https://babeljs.io/)  
 
+[Hot Reloading](https://reactnative.dev/blog/2016/03/24/introducing-hot-reloading.html#hot-reloading)  
+
+[Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
+
 ## :arrow_forward: **_start:_**  
 
 _creat react project from terminal:_  
@@ -125,6 +129,18 @@ cd web
 
 ```
 code .
+```
+
+_run the project from terminal:_  
+
+```
+yarn start
+```
+
+or  
+
+```
+npm start
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
