@@ -158,12 +158,14 @@ _install react router:_
 
 ```
 yarn add react-router-dom
+yarn add @types/react-router-dom -D
 ```
 
 or  
 
 ```
 npm install react-router-dom
+npm install @types/react-router-dom -D
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
