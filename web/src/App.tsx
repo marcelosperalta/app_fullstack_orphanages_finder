@@ -2,11 +2,13 @@ import React from 'react';
 
 import './styles/global.css';
 
+import Routes from './routes'
+
 // react component
 // https://reactjs.org/docs/components-and-props.html
 function App() {
   return (
-
+    <Routes />
   );
 }
 
