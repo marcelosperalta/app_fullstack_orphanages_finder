@@ -55,14 +55,6 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 ## :wrench: **_tools "Front-end":_**  
 
-<!-- [Microsoft Edge](https://www.microsoft.com/en-us/edge)  
-
-[Google Chrome](https://www.google.com/chrome/)   -->
-
-<!-- [Visual Studio Code Extension "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
-
-[Visual Studio Code Extension "Launchbase Theme"](https://marketplace.visualstudio.com/items?itemName=maykbrito.theme-launchbase)   -->
-
 [Figma](https://www.figma.com/)  
 <br>
 
@@ -71,6 +63,10 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [React Router](https://reactrouter.com/web/guides/quick-start)  
 
 [Leaflet](https://leafletjs.com/)  
+
+[React Leaflet](https://react-leaflet.js.org/)  
+
+[OpenStreetMap](https://www.openstreetmap.org/)  
 
 ## :hammer: **_tools "Back-end":_**  
 
@@ -170,6 +166,12 @@ npm install react-router-dom
 npm install @types/react-router-dom -D
 ```
 
+_install leaflet and react-leaflet:_  
+
+```
+yarn add leaflet react-leaflet
+yarn add @types/react-leaflet -D
+```
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
