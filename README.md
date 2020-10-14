@@ -71,6 +71,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Figma](https://www.figma.com/)  
 <br>
 
+[React Icons](https://react-icons.github.io/react-icons/)  
+
 ## :hammer: **_tools "Back-end":_**  
 
 [Node.js](https://nodejs.org/en/)  
@@ -141,6 +143,18 @@ or
 
 ```
 npm start
+```
+
+_install react icons:_  
+
+```
+yarn add react-icons
+```
+
+or
+
+```
+npm install react-icons
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
