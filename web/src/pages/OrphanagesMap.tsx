@@ -1,8 +1,17 @@
 import React from 'react';
 
+import mapMarketImg from '../images/map-marker.svg';
+
 function OrphanagesMap() {
     return (
-        <h1>Hello World</h1>
+        <div id="page-map">
+            <aside>
+                <header>
+                    <img src="" alt=""/>
+                </header>
+
+            </aside>
+        </div>
     )
 }
 
