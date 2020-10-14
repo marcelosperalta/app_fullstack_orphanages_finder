@@ -101,6 +101,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [Single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application)  
 
+## :arrow_forward: **_start:_**  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
