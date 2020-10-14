@@ -101,7 +101,32 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [Single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application)  
 
+[Babel](https://babeljs.io/)  
+
 ## :arrow_forward: **_start:_**  
+
+_creat react project from terminal:_  
+
+```
+yarn create react-app web --template typescript
+```
+
+or  
+
+```
+npx create-react-app web --template typescript
+```
+
+_open the project from terminal:_  
+
+```
+cd web
+```
+
+```
+code .
+```
+
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
