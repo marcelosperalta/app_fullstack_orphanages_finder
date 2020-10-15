@@ -84,6 +84,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Expo CLI](https://docs.expo.io/workflow/expo-cli/?redirected)  
 
 [Express](https://expressjs.com/)  
+
+[Chrome Extension "JSON Viewer"](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
