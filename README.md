@@ -69,6 +69,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [mapbox](https://www.mapbox.com/)  
 
 [Google Maps Platform](https://cloud.google.com/maps-platform)  
+<br>
 
 ## :hammer: **_tools "Back-end":_**  
 
@@ -105,6 +106,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Hot Reloading](https://reactnative.dev/blog/2016/03/24/introducing-hot-reloading.html#hot-reloading)  
 
 [Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
+<br>
 
 ## :arrow_forward: **_start:_**  
 
