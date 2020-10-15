@@ -211,6 +211,13 @@ yarn init -y
 
 ```
 yarn add express
+yarn add @types/express -D
+```
+
+:black_medium_small_square: **_run the project from terminal:_**  
+
+```
+node src/server.ts
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
