@@ -236,10 +236,18 @@ yarn tsc --init
 yarn add ts-node-dev -D
 ```
 
+:black_medium_small_square: **_add to package.json:_**  
+
+```
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+```
+
 :black_medium_small_square: **_run the project from terminal:_**  
 
 ```
-node src/server.ts
+yarn dev
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
