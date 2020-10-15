@@ -37,15 +37,13 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 ### :iphone:  
 
-![mobile](./readme/screenshots/home_mobile.png)  
+![mobile](./readme/)  
 
 ### :computer:  
 
-![home](./readme/screenshots/home_desk.png)  
+![home](./readme/screenshot_web_01_home.png)  
 
-![estudar](./readme/screenshots/study.png)  
-
-![dar-aulas](./readme/screenshots/give-classes.png)  
+![map](./readme/screenshot_web_02_map.png)  
 <br>
 
 ## :fire: **_Source code editor_**  
