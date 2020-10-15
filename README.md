@@ -18,6 +18,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
     <img src="./readme/logo_react.png" width="70">
     &nbsp;
     <img src="./readme/logo_nodejs.png" width="70">
+    &nbsp;
+    <img src="./readme/logo_express.png" width="70">
 </div>
 
 <br>
@@ -80,6 +82,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [yarn](https://yarnpkg.com/)  
 
 [Expo CLI](https://docs.expo.io/workflow/expo-cli/?redirected)  
+
+[Express](https://expressjs.com/)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
@@ -201,6 +205,12 @@ cd backend
 
 ```
 yarn init -y
+```
+
+:black_medium_small_square: **_install Express:_**  
+
+```
+yarn add express
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
