@@ -93,6 +93,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 ## :books: **_important topics:_**  
 
+### Front-end
+
 [Representational state transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer)  
 
 [JSON](https://www.json.org/)  
@@ -108,7 +110,13 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
 <br>
 
+### Back-end
+
+  
+
 ## :arrow_forward: **_start:_**  
+
+### Front-end ("web" folder)
 
 :black_medium_small_square: **_creat react project from terminal:_**  
 
@@ -176,6 +184,25 @@ npm install @types/react-router-dom -D
 yarn add leaflet react-leaflet
 yarn add @types/react-leaflet -D
 ```
+
+### Back-end ("..." folder)
+
+:black_medium_small_square: **_create "backend" folder from terminal:_**  
+
+```
+mkdir backend
+```
+
+```
+cd backend
+```
+
+:black_medium_small_square: **_create "package.json" file from terminal:_**  
+
+```
+yarn init -y
+```
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
