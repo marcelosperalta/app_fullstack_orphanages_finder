@@ -110,7 +110,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 ## :arrow_forward: **_start:_**  
 
-_creat react project from terminal:_  
+:black_circle: _creat react project from terminal:_  
 
 ```
 yarn create react-app web --template typescript
@@ -122,7 +122,7 @@ or
 npx create-react-app web --template typescript
 ```
 
-_open the project from terminal:_  
+:black_small_square: _open the project from terminal:_  
 
 ```
 cd web
