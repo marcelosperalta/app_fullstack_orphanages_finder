@@ -110,7 +110,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 ## :arrow_forward: **_start:_**  
 
-:black_circle: **_creat react project from terminal:_**  
+:black_medium_small_square: **_creat react project from terminal:_**  
 
 ```
 yarn create react-app web --template typescript
@@ -132,7 +132,7 @@ cd web
 code .
 ```
 
-_run the project from terminal:_  
+:black_medium_small_square: **_run the project from terminal:_**  
 
 ```
 yarn start
@@ -144,7 +144,7 @@ or
 npm start
 ```
 
-_install react icons:_  
+:black_medium_small_square: **_install react icons:_**  
 
 ```
 yarn add react-icons
@@ -156,7 +156,7 @@ or
 npm install react-icons
 ```
 
-_install react router:_  
+:black_medium_small_square: **_install react router:_**  
 
 ```
 yarn add react-router-dom
@@ -170,7 +170,7 @@ npm install react-router-dom
 npm install @types/react-router-dom -D
 ```
 
-_install leaflet and react-leaflet:_  
+:black_medium_small_square: **_install leaflet and react-leaflet:_**  
 
 ```
 yarn add leaflet react-leaflet
