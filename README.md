@@ -240,7 +240,7 @@ yarn add ts-node-dev -D
 
 ```
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
   },
 ```
 
@@ -248,6 +248,12 @@ yarn add ts-node-dev -D
 
 ```
 yarn dev
+```
+
+_to confirm if is running:_
+
+```
+localhost:3333
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
