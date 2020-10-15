@@ -108,11 +108,11 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Hot Reloading](https://reactnative.dev/blog/2016/03/24/introducing-hot-reloading.html#hot-reloading)  
 
 [Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
-<br>
+
 
 ### Back-end
 
-  
+<br>
 
 ## :arrow_forward: **_start:_**  
 
