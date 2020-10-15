@@ -122,7 +122,7 @@ or
 npx create-react-app web --template typescript
 ```
 
-:black_small_square: _open the project from terminal:_  
+:black_small_square: **_open the project from terminal:_**  
 
 ```
 cd web
