@@ -122,7 +122,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 ### Front-end ("web" folder)
 
-:black_medium_small_square: **_creat react project from terminal:_**  
+:black_medium_small_square: **_creat react project adding typescript from terminal:_**  
 
 ```
 yarn create react-app web --template typescript
@@ -212,6 +212,28 @@ yarn init -y
 ```
 yarn add express
 yarn add @types/express -D
+```
+
+:black_medium_small_square: **_add Typescript:_**  
+
+```
+yarn add typescript -D
+```
+
+```
+yarn tsc --init
+```
+
+:black_medium_small_square: **_change tsconfig.json:_**  
+
+```
+"target": "es2017",
+```
+
+:black_medium_small_square: **_install ts-node-dev:_**  
+
+```
+yarn add ts-node-dev -D
 ```
 
 :black_medium_small_square: **_run the project from terminal:_**  
