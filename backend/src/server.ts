@@ -1,16 +1,21 @@
 // backend > request and response
-// REQ / RES
+//               REQ  /  RES
 
 import express from 'express';
 
 const app = express();
 
-// http://localhost:3333/users
+// resource = users ----------------------------------
+// route: --------------------------------------------
 app.get('/users', (request, response) => {
     // console.log('teste');
     // return response.send('Hello World');
     return response.json({ message: "Hello World" });
 });
+// http://localhost:3333/users
+// ---------------------------------------------------
 
-// localhost:3333
+// port -----------
 app.listen(3333);
+// localhost:3333
+// ----------------
