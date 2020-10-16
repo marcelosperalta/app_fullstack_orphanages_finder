@@ -333,6 +333,12 @@ add to ```ormconfig.json``` the text below:
     }
 ```
 
+create the migration ```create_orphanages```  
+
+```
+yarn typeorm migration:create -n create_orphanages
+```
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
