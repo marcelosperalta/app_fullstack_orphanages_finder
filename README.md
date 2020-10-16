@@ -281,7 +281,7 @@ create a ```database``` folder inside ```src``` folder
 
 create a ```database.sqlite``` file inside ```database``` folder  
 
-create an ```ormconfig.json``` file inside ```src``` folder and copy the text below:  
+create an ```ormconfig.json``` file inside ```backend``` folder and copy the text below:  
 
 ```
 {

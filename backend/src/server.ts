@@ -18,6 +18,8 @@
 
 import express from 'express';
 
+import './database/connection'
+
 const app = express();
 
 // to turn Express able to understand JSON
