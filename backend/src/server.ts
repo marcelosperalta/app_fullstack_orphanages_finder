@@ -67,11 +67,13 @@ app.listen(3333);
 // localhost:3333
 // ----------------
 
+
 // Database
+
 // native driver (e.g. slite3.query('SELECT * FROM users'))
 // or
 // query builder (http://knexjs.org/ > e.g. knex('users').select('*').where('name', 'Diego'))
 // or
 // ORM (table "users" = class "User")
 
-// create tables using "migrations"
+// create tables using "database migrations"

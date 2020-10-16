@@ -294,6 +294,24 @@ create an ```ormconfig.json``` file inside ```backend``` folder and copy the tex
 
 create a ```connection.ts``` file inside ```database``` folder  
 
+create a ```migrations``` folder inside ```database``` folder  
+
+:black_medium_small_square: **_configure TypeORM to work with TypeScript:_**  
+
+add to ```package.json``` file on "scripts" the text below:  
+
+```
+{
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+}
+```
+
+and run TypeORM:
+
+```
+yarn typeorm
+```
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
