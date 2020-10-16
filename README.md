@@ -275,6 +275,8 @@ localhost:3333
 
 [Insomnia Core](https://insomnia.rest/download)  
 
+![insomnia](./readme/app_insomnia.png)  
+
 :black_medium_small_square: **_install TypeORM and SQLite:_**  
 
 ```
@@ -351,6 +353,7 @@ view the data created:
 
 [Beekeeper Studio](https://www.beekeeperstudio.io/)  
 
+![beekeeper](./readme/app_beekeeper_studio.png)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
