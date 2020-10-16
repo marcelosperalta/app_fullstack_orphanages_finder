@@ -20,6 +20,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
     <img src="./readme/logo_nodejs.png" width="70">
     &nbsp;
     <img src="./readme/logo_express.png" width="70">
+        &nbsp;
+    <img src="./readme/logo_sqlite.png" width="70">
 </div>
 
 <br>
@@ -87,14 +89,16 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Chrome Extension "JSON Viewer"](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)  
 
 [Insomnia](https://insomnia.rest/)  
+
+[TypeORM](https://typeorm.io/)  
+
+[SQLite](https://www.sqlite.org/)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
 <!-- [Express.js](https://expressjs.com/)  
 
 [Nunjucks](https://mozilla.github.io/nunjucks/)  
-
-[SQLite](https://www.sqlite.org/)  
 
 [Git Bash](https://gitforwindows.org/)   -->
 
@@ -266,6 +270,12 @@ localhost:3333
 :black_medium_small_square: **_install Insomnia Core:_**  
 
 https://insomnia.rest/download  
+
+:black_medium_small_square: **_install TypeORM and SQLite:_**  
+
+```
+yarn add typeorm sqlite3
+```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 

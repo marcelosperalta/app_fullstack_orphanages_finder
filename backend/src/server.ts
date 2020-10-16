@@ -27,7 +27,7 @@ app.use(express.json());
 // HTTP method = GET ---------------------------------
 // <route> -------------------------------------------
 app.get('/users', (request, response) => {
-    console.log('teste');
+    // console.log('teste');
     // return response.send('Hello World');
     return response.json({ message: "Hello World" });
 });
@@ -45,12 +45,12 @@ app.get('/users', (request, response) => {
 //
 // Route Params: http://localhost:3333/users/1 (used to identify a resource)
 // Body        : The POST request method requests that a web server accepts the data enclosed in the body of the request message
-app.post('/users/:id', (request, response) => {
-    console.log(request.params); // using insomnia > http://localhost:3333/users/1
-    console.log(request.body);   // using insomnia > http://localhost:3333/users/1 > text JSON: { "name": "Diego Fernandes" }
+// app.post('/users/:id', (request, response) => {
+//     console.log(request.params); // using insomnia > http://localhost:3333/users/1
+//     console.log(request.body);   // using insomnia > http://localhost:3333/users/1 > text JSON: { "name": "Diego Fernandes" }
 
-    return response.json({ message: "Hello World" });
-});
+//     return response.json({ message: "Hello World" });
+// });
 //
 
 // app.post('/users', (request, response) => {
