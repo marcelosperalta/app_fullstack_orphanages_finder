@@ -115,6 +115,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
 
+[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)  
 
 ### Back-end
 
