@@ -119,6 +119,10 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 ### Back-end
 
 [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)  
+
+[Query string](https://en.wikipedia.org/wiki/Query_string)  
+
+[]()
 <br>
 
 ## :arrow_forward: **_start:_**  
