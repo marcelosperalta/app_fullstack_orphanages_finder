@@ -74,4 +74,4 @@ app.listen(3333);
 // or
 // ORM (table "users" = class "User")
 
-
+// create tables using "migrations"

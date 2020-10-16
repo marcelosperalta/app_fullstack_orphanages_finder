@@ -127,6 +127,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Query string](https://en.wikipedia.org/wiki/Query_string)  
 
 [Object–relational mapping (ORM)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)  
+
+[Schema migration (also database migration)](https://en.wikipedia.org/wiki/Schema_migration)  
 <br>
 
 ## :arrow_forward: **_start:_**  
