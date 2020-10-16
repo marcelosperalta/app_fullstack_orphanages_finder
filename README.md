@@ -277,6 +277,8 @@ https://insomnia.rest/download
 yarn add typeorm sqlite3
 ```
 
+and create an ```ormconfig.json``` file inside ```src``` folder  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
