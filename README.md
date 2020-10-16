@@ -306,10 +306,18 @@ add to ```package.json``` file on "scripts" the text below:
 }
 ```
 
-and run TypeORM:
+and run TypeORM:  
 
 ```
 yarn typeorm
+```
+
+now the commands will be like that:  
+
+```
+cli.js schema:sync
+cls.js schema:log
+etc.
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
