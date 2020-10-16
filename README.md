@@ -56,7 +56,6 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 ## :wrench: **_tools "Front-end":_**  
 
 [Figma](https://www.figma.com/)  
-<br>
 
 [React Icons](https://react-icons.github.io/react-icons/)  
 
