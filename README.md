@@ -320,6 +320,19 @@ cls.js schema:log
 etc.
 ```
 
+:black_medium_small_square: **_configuration to enable database migration:_**  
+
+add to ```ormconfig.json``` the text below:  
+
+```
+    "migrations": [
+        "./src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+```
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
