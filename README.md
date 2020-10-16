@@ -129,6 +129,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Object–relational mapping (ORM)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)  
 
 [Schema migration (also database migration)](https://en.wikipedia.org/wiki/Schema_migration)  
+
+[Beekeeper Studio](https://www.beekeeperstudio.io/)  
 <br>
 
 ## :arrow_forward: **_start:_**  
@@ -333,17 +335,22 @@ add to ```ormconfig.json``` the text below:
     }
 ```
 
-create the migration ```create_orphanages```  
+create the migration ```create_orphanages```:  
 
 ```
 yarn typeorm migration:create -n create_orphanages
 ```
 
-create tables using the database migration method and TypeORM
+create tables using the database migration method and TypeORM:  
 
 ```
 yarn typeorm migration:run
 ```
+
+view the data created:  
+
+[Beekeeper Studio](https://www.beekeeperstudio.io/)  
+
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
