@@ -1,11 +1,12 @@
 // backend > request and response
 //               REQ  /  RES
 
-// HTTP methods = GET, POST, PUT, DELETE
-// GET    > requests a representation of the specified resource
-// POST   > submit an entity to the specified resource
-// PUT    > replaces all current representations of the target resource
-// DELETE > deletes the specified resource
+// ----- HTTP methods = GET, POST, PUT, DELETE -----
+// GET    > (search) requests a representation of the specified resource
+// POST   > (create) submit an entity to the specified resource
+// PUT    > (update) replaces all current representations of the target resource
+// DELETE > (delete) deletes the specified resource
+
 
 import express from 'express';
 
