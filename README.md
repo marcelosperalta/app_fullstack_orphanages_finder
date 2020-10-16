@@ -339,6 +339,12 @@ create the migration ```create_orphanages```
 yarn typeorm migration:create -n create_orphanages
 ```
 
+create tables using the database migration method and TypeORM
+
+```
+yarn typeorm migration:run
+```
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  

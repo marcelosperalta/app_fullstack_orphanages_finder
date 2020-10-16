@@ -1,12 +1,13 @@
-import {MigrationInterface, QueryRunner} from "typeorm";
+import {MigrationInterface, QueryRunner, Table } from "typeorm";
 
 export class createOrphanages1602870143857 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
-        // To modify the database
-        // e.g. create new table, create new field, delete some field...
+    // To modify the database
+    // e.g. create new table, create new field, delete some field...
+
         await queryRunner.createTable(new Table({
-            name: "orphanages",
+            name: 'orphanages',
             columns: [
                 {
                     name: 'id',
@@ -14,45 +15,43 @@ export class createOrphanages1602870143857 implements MigrationInterface {
                     unsigned: true,
                     isPrimary: true,
                     isGenerated: true,
-                    generationStrategy: 'increment',
+                    generationStrategy: 'increment'
                 },
                 {
                     name: 'name',
-                    type: 'varchar',
+                    type: 'varchar'
                 },
                 {
                     name: 'latitude',
                     type: 'decimal',
                     scale: 10,
-                    precision: 2,
+                    precision: 2
                 },
                 {
                     name: 'longitude',
                     type: 'decimal',
                     scale: 10,
-                    precision: 2,
+                    precision: 2
                 },
                 {
                     name: 'about',
-                    type: 'text',
+                    type: 'text'
                 },
                 {
                     name: 'instructions',
-                    type: 'text',
+                    type: 'text'
                 },
                 {
                     name: 'open_on_weekends',
                     type: 'boolean',
-                    default: false,
+                    default: false
                 }
-                
-            ]
+            ],
         }))
     }
-
     public async down(queryRunner: QueryRunner): Promise<void> {
-        // Undo everything that was done by "public async up"
-        await queryRunner.dropTacle("orphanages");
-    }
+    // Undo everything that was done by "public async up"
 
+        await queryRunner.dropTable("orphanages");
+    }
 }
