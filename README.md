@@ -349,7 +349,7 @@ create tables using the database migration method and TypeORM:
 yarn typeorm migration:run
 ```
 
-view the data created:  
+view the database created:  
 
 [Beekeeper Studio](https://www.beekeeperstudio.io/)  
 
