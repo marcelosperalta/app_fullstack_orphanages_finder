@@ -273,7 +273,7 @@ localhost:3333
 
 :black_medium_small_square: **_install Insomnia Core:_**  
 
-https://insomnia.rest/download  
+[Insomnia Core](https://insomnia.rest/download)  
 
 :black_medium_small_square: **_install TypeORM and SQLite:_**  
 
