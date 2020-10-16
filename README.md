@@ -277,7 +277,20 @@ https://insomnia.rest/download
 yarn add typeorm sqlite3
 ```
 
-and create an ```ormconfig.json``` file inside ```src``` folder  
+create a ```database``` folder inside ```src``` folder  
+
+create a ```database.sqlite``` file inside ```database``` folder  
+
+create an ```ormconfig.json``` file inside ```src``` folder and copy the text below:  
+
+```
+{
+    "type": "sqlite",
+    "database": "./src/database/database.sqlite"
+}
+```
+
+create a ```connection.ts``` file inside ```database``` folder  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
