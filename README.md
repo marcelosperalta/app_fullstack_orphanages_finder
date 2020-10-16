@@ -259,6 +259,10 @@ _to confirm if is running:_
 localhost:3333
 ```
 
+:black_medium_small_square: **_install Insomnia Core:_**  
+
+https://insomnia.rest/download  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  

@@ -16,6 +16,9 @@
 // https://www.postman.com/
 // ---------------------------------------------------
 
+// ----- Parameters: -----
+// Query: http://localhost:3333/users?search=diego (parameter "?search=diego")
+
 import express from 'express';
 
 const app = express();
