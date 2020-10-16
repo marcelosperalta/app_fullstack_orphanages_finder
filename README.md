@@ -204,7 +204,7 @@ yarn add leaflet react-leaflet
 yarn add @types/react-leaflet -D
 ```
 
-### Back-end ("..." folder)
+### Back-end ("backend" folder)
 
 :black_medium_small_square: **_create "backend" folder from terminal:_**  
 
@@ -354,6 +354,31 @@ view the database created:
 [Beekeeper Studio](https://www.beekeeperstudio.io/)  
 
 ![beekeeper](./readme/app_beekeeper_studio.png)  
+
+create a ```models``` folder (is a representation of each database table as a class)  
+
+create a model ```Orphanage.ts``` file inside ```models``` folder  
+
+:rotating_light: **_reverting the process in migration to add "opening_hours" field:_**  
+
+```
+yarn typeorm migration:revert
+```
+
+add to the file ```<timestamp>-create_orphanages.ts``` inside ```migrations``` folder the text below between the fileds "instructions" and "open_on_weekends":  
+
+```
+                {
+                    name: 'opening_hours',
+                    type: 'varchar'
+                },
+```
+
+create the table again using the database migration method and TypeORM:  
+
+```
+yarn typeorm migration:run
+```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
