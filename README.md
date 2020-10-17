@@ -521,6 +521,8 @@ _result:_
 
 ![terminal](./readme/happy_backend_terminal_3.png)  
 
+![beekeeper](./readme/happy_backend_beekeeper_2.png)  
+
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
