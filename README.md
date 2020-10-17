@@ -443,6 +443,30 @@ _result:_
     ],
 ```
 
+open Insominia again  
+
+use the method POST with the URL below:  
+
+http://localhost:3333/orphanages  
+
+configure the body with the information like the example below and press "Send"  
+
+```
+{	
+	"name": "Jewish Orphanage Berlin-Pankow",
+	"latitude": 52.5685795,
+	"longitude": 13.4101369,
+	"about": "Sobre o orfanato",
+	"instructions": "Venha visitar",
+	"opening_hours": "Das 8h até as 18h",
+	"open_on_weekends": true
+}
+```
+
+_result:_
+
+![backend start](./readme/happy_backend_insominia_record_data_DB.png)  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
