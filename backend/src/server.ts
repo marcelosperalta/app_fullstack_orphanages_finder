@@ -26,6 +26,8 @@ const app = express();
 app.use(express.json());
 
 app.post('/orphanages', (request, response) => {
+    console.log(request.body);
+
     return response.json({ message: "Dados gravados!" });
 });
 // resource = users ----------------------------------

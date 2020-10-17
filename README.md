@@ -431,6 +431,7 @@ _result:_
 
 ![backend start](./readme/happy_backend_insominia_record_data_DB.png)  
 
+[terminal](happy_backend_terminal.png)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
