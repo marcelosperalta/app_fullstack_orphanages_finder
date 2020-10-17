@@ -386,7 +386,7 @@ yarn typeorm migration:run
 "strictPropertyInitialization": false,
 ```
 
-:black_medium_small_square: **_enable the ```tsconfig.json``` file propertys below:_**  
+:black_medium_small_square: **_enable the ```tsconfig.json``` file properties below:_**  
 
 ```
 "experimentalDecorators": true,
