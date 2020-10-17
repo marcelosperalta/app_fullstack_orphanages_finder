@@ -483,6 +483,22 @@ _result:_
 
 ![insomnia](./readme/happy_backend_insominia_show_DB.png)  
 
+:black_medium_small_square: **_how to list on orphanate from orphanages' database:_**  
+
+open Insominia again  
+
+use the method GET with the URL below and press "Send":  
+
+http://localhost:3333/orphanages/\<id>  
+
+e.g.
+
+http://localhost:3333/orphanages/1  
+
+_result:_
+
+![insomnia](./readme/happy_backend_insominia_show_one.png)  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
