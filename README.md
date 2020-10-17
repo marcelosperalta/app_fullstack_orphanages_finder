@@ -94,7 +94,9 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [SQLite](https://www.sqlite.org/)  
 
-[Beekeeper Studio](https://www.beekeeperstudio.io/)
+[Beekeeper Studio](https://www.beekeeperstudio.io/)  
+
+[multer](https://www.npmjs.com/package/multer)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
@@ -522,6 +524,19 @@ _result:_
 ![terminal](./readme/happy_backend_terminal_3.png)  
 
 ![beekeeper](./readme/happy_backend_beekeeper_2.png)  
+
+:black_medium_small_square: **_install a library to work with file upload:_**  
+
+```
+yarn add multer
+yarn add @types/multer -D
+```
+
+inside the path ```...\backend\src```, create ```config``` folder with ```upload.ts``` file inside  
+
+inside the path ```...\backend```, create ```uploads``` folder  
+
+
 
 
 <!-- ## :dvd: **_install package.json dependencies:_**
