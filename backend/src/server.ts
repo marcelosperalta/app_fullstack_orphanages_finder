@@ -53,7 +53,7 @@ app.post('/orphanages', async (request, response) => {
 
     await orphanagesRepository.save(orphanage);
 
-    return response.json({ message: "Dados gravados!" });
+    return response.status(201).json(orphanage);
 });
 // resource = users ----------------------------------
 // HTTP method = GET ---------------------------------
