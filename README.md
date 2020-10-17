@@ -499,6 +499,21 @@ _result:_
 
 ![insomnia](./readme/happy_backend_insominia_show_one.png)  
 
+:black_medium_small_square: **_create a new table using the database migration method and TypeORM:_**  
+
+! _a table to store the name of the orphanages photos' files_  
+
+```
+yarn typeorm migration:create -n create_images
+```
+
+_result:_
+
+![terminal](./readme/happy_backend_terminal_2.png)  
+
+
+
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
