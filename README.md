@@ -489,7 +489,7 @@ open Insominia again
 
 use the method GET with the URL below and press "Send":  
 
-http://localhost:3333/orphanages/'id'
+http://localhost:3333/orphanages/"id"
 
 e.g.
 
