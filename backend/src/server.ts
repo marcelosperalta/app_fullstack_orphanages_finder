@@ -25,14 +25,17 @@ const app = express();
 // to turn Express able to understand JSON
 app.use(express.json());
 
+app.post('/orphanages', (request, response) => {
+    return response.json({ message: "Dados gravados!" });
+});
 // resource = users ----------------------------------
 // HTTP method = GET ---------------------------------
 // <route> -------------------------------------------
-app.get('/users', (request, response) => {
-    // console.log('teste');
-    // return response.send('Hello World');
-    return response.json({ message: "Hello World" });
-});
+// app.get('/users', (request, response) => {
+//     // console.log('teste');
+//     // return response.send('Hello World');
+//     return response.json({ message: "Hello World" });
+// });
 // </route> ------------------------------------------
 // http://localhost:3333/users
 // ---------------------------------------------------
