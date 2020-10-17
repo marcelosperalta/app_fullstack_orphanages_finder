@@ -4,6 +4,11 @@ import Orphanage from './models/Orphanage';
 
 const routes = Router();
 
+// MVC
+// Model
+// Views
+// Controllers
+
 // to register orphanages
 routes.post('/orphanages', async (request, response) => {
     // console.log(request.body);

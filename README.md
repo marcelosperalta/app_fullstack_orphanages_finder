@@ -135,6 +135,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)  
 
 [Repository pattern](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#:~:text=of%20Work%20patterns.-,The%20Repository%20pattern,from%20the%20domain%20model%20layer.)  
+
+[Model–view–controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)  
 <br>
 
 ## :arrow_forward: **_start:_**  
