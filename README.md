@@ -511,7 +511,15 @@ _result:_
 
 ![terminal](./readme/happy_backend_terminal_2.png)  
 
+configure the new migration file (```xxxxxxxxxxxxx-create_images.ts```) and run  
 
+```
+yarn typeorm migration:run
+```
+
+_result:_
+
+![terminal](./readme/happy_backend_terminal_3.png)  
 
 
 <!-- ## :dvd: **_install package.json dependencies:_**
