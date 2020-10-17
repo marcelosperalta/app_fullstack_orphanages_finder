@@ -431,7 +431,7 @@ configure the body with the information like the example below and press "Send"
 
 _result:_
 
-![backend start](./readme/happy_backend_insominia_record_data_DB.png)  
+![insomnia](./readme/happy_backend_insominia_record_data_DB.png)  
 
 ![terminal](./readme/happy_backend_terminal.png)  
 
@@ -465,7 +465,9 @@ configure the body with the information like the example below and press "Send"
 
 _result:_
 
-![backend start](./readme/happy_backend_insominia_record_data_DB.png)  
+![insomnia](./readme/happy_backend_insominia_record_data_DB.png)  
+
+![beekeeper](./readme/happy_backend_beekeeper.png)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
