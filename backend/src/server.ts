@@ -17,16 +17,41 @@
 // ---------------------------------------------------
 
 import express from 'express';
+import { getRepository } from 'typeorm';
+import Orphanage from './models/Orphanage';
 
-import './database/connection'
+import './database/connection';
 
 const app = express();
 
 // to turn Express able to understand JSON
 app.use(express.json());
 
-app.post('/orphanages', (request, response) => {
-    console.log(request.body);
+app.post('/orphanages', async (request, response) => {
+    // console.log(request.body);
+    const {
+            name,
+            latitude,
+            longitude,
+            about,
+            instructions,
+            opening_hours,
+            open_on_weekends
+          } = request.body;
+
+    const orphanagesRepository = getRepository(Orphanage);
+
+    const orphanage = orphanagesRepository.create({
+            name,
+            latitude,
+            longitude,
+            about,
+            instructions,
+            opening_hours,
+            open_on_weekends
+    });
+
+    await orphanagesRepository.save(orphanage);
 
     return response.json({ message: "Dados gravados!" });
 });

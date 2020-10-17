@@ -133,6 +133,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Schema migration (also database migration)](https://en.wikipedia.org/wiki/Schema_migration)  
 
 [Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)  
+
+[Repository pattern](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#:~:text=of%20Work%20patterns.-,The%20Repository%20pattern,from%20the%20domain%20model%20layer.)  
 <br>
 
 ## :arrow_forward: **_start:_**  
@@ -208,7 +210,7 @@ yarn add @types/react-leaflet -D
 
 ### Back-end ("backend" folder)
 
-:black_medium_small_square: **_create "backend" folder from terminal:_**  
+:black_medium_small_square: **_create ```backend``` folder from terminal:_**  
 
 ```
 mkdir backend
@@ -218,7 +220,7 @@ mkdir backend
 cd backend
 ```
 
-:black_medium_small_square: **_create "package.json" file from terminal:_**  
+:black_medium_small_square: **_create ```package.json``` file from terminal:_**  
 
 ```
 yarn init -y
@@ -241,7 +243,7 @@ yarn add typescript -D
 yarn tsc --init
 ```
 
-:black_medium_small_square: **_change tsconfig.json:_**  
+:black_medium_small_square: **_change ```tsconfig.json```:_**  
 
 ```
 "target": "es2017",
@@ -253,7 +255,7 @@ yarn tsc --init
 yarn add ts-node-dev -D
 ```
 
-:black_medium_small_square: **_add to package.json:_**  
+:black_medium_small_square: **_add to ```package.json```:_**  
 
 ```
   "scripts": {
@@ -432,6 +434,14 @@ _result:_
 ![backend start](./readme/happy_backend_insominia_record_data_DB.png)  
 
 ![terminal](./readme/happy_backend_terminal.png)  
+
+:black_medium_small_square: **_add to ```ormconfig.json```:_**  
+
+```
+    "entities": [
+        "./src/models/*.ts"
+    ],
+```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
