@@ -380,6 +380,24 @@ create the table again using the database migration method and TypeORM:
 yarn typeorm migration:run
 ```
 
+:black_medium_small_square: **_enable and configure the ```tsconfig.json``` file property below:_**  
+
+```
+"strictPropertyInitialization": false,
+```
+
+:black_medium_small_square: **_enable the ```tsconfig.json``` file propertys below:_**  
+
+```
+"experimentalDecorators": true,
+"emitDecoratorMetadata": true,
+```
+
+
+
+
+
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
