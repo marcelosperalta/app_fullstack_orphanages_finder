@@ -1,6 +1,7 @@
+import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm'
+
 // this a JavaScript class, and because of that, 
 // the types (number, string, etc.) are different from the types configured in the Database.
-
 export default class Orphanage {
     id: number;
 

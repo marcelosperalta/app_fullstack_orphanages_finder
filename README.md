@@ -93,6 +93,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [TypeORM](https://typeorm.io/)  
 
 [SQLite](https://www.sqlite.org/)  
+
+[Beekeeper Studio](https://www.beekeeperstudio.io/)
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
@@ -130,7 +132,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 [Schema migration (also database migration)](https://en.wikipedia.org/wiki/Schema_migration)  
 
-[Beekeeper Studio](https://www.beekeeperstudio.io/)  
+[Decorator pattern](https://en.wikipedia.org/wiki/Decorator_pattern)  
 <br>
 
 ## :arrow_forward: **_start:_**  
