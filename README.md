@@ -540,6 +540,8 @@ inside the path ```...\backend```, create ```uploads``` folder
 
 ![insomnia](./readme/happy_backend_insominia_upload_images.png)  
 
+![insomnia](./readme/happy_backend_insominia_upload_images_2.png)  
+
 ![vsc](./readme/happy_backend_vsc_1.png)  
 
 
