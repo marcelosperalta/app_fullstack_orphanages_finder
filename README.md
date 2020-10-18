@@ -101,6 +101,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [ExpressJS Async Errors](https://www.npmjs.com/package/express-async-errors)  
 
 [Yup](https://www.npmjs.com/package/yup)  
+
+[cors](https://www.npmjs.com/package/cors)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
@@ -593,6 +595,13 @@ _after import "ValidationError" from yup:_
 ![insomnia](./readme/happy_backend_insominia_upload_images_8.png)  
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_9.png)  
+
+:black_medium_small_square: **_install cors:_**  
+
+```
+yarn add cors
+yarn add @types/cors -D
+```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 

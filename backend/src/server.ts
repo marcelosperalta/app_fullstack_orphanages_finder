@@ -18,6 +18,7 @@
 
 import express from 'express';
 import path from 'path';
+import cors from 'cors';
 import 'express-async-errors';
 
 import './database/connection';
@@ -27,6 +28,7 @@ import errorHandler from './errors/handler';
 
 const app = express();
 
+app.use(cors());
 // to turn Express able to understand JSON
 app.use(express.json());
 app.use(routes);
