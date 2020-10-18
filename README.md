@@ -558,6 +558,9 @@ create ```images_view.ts``` file inside the ```views``` folder
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_5.png)  
 
+![insomnia](./readme/happy_backend_upload_browser.png)  
+
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
