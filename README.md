@@ -139,6 +139,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Repository pattern](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#:~:text=of%20Work%20patterns.-,The%20Repository%20pattern,from%20the%20domain%20model%20layer.)  
 
 [Model–view–controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)  
+
+[Gerenciando variáveis ambiente no NodeJS](https://blog.rocketseat.com.br/variaveis-ambiente-nodejs/)  
 <br>
 
 ## :arrow_forward: **_start:_**  
@@ -560,6 +562,13 @@ create ```images_view.ts``` file inside the ```views``` folder
 
 ![insomnia](./readme/happy_backend_upload_browser.png)  
 
+:black_medium_small_square: **_handling exceptions:_**  
+
+```
+yarn add express-async-errors  
+```
+
+inside the path ```...\backend\src```, create ```errors``` folder with ```handler.ts``` file inside  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
