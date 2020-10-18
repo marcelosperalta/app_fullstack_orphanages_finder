@@ -97,6 +97,10 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Beekeeper Studio](https://www.beekeeperstudio.io/)  
 
 [multer](https://www.npmjs.com/package/multer)  
+
+[ExpressJS Async Errors](https://www.npmjs.com/package/express-async-errors)  
+
+[Yup](https://www.npmjs.com/package/yup)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
@@ -573,6 +577,12 @@ inside the path ```...\backend\src```, create ```errors``` folder with ```handle
 ![insomnia](./readme/happy_backend_insominia_upload_images_6.png)  
 
 ![vsc](./readme/happy_backend_vsc_2.png)  
+
+:black_medium_small_square: **_install yup:_**  
+
+```
+yarn add yup
+```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
