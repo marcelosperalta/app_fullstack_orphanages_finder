@@ -546,9 +546,11 @@ inside the path ```...\backend```, create ```uploads``` folder
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_3.png)  
 
+![insomnia](./readme/happy_backend_insominia_upload_images_4.png)  
+
 ![beekeeper](./readme/happy_backend_beekeeper_3.png)  
 
-inside the path ```...\backend\src```, create ```views``` folder with ```upload.ts``` file inside  
+inside the path ```...\backend\src```, create ```views``` folder with ```orphanages_view.ts``` file inside  
 
 
 <!-- ## :dvd: **_install package.json dependencies:_**
