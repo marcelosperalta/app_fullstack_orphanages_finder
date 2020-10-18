@@ -1,4 +1,5 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm'
+import { Entity, Column, PrimaryGeneratedColumn , OneToMany, JoinColumn } from 'typeorm';
+import Image from './Image';
 
 // this a JavaScript class, and because of that, 
 // the types (number, string, etc.) are different from the types configured in the Database.
@@ -27,4 +28,11 @@ export default class Orphanage {
 
     @Column()
     open_on_weekends: boolean;
+
+    // this field does not exist in the DB.
+    @OneToMany(() => Image, image => image.orphanage, {
+        cascade: ['insert', 'update']
+    })
+    @JoinColumn({ name: 'orphanage_id' })
+    images: Image[];
 }
