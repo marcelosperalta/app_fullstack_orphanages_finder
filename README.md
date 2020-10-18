@@ -560,7 +560,7 @@ create ```images_view.ts``` file inside the ```views``` folder
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_5.png)  
 
-![insomnia](./readme/happy_backend_upload_browser.png)  
+![browser](./readme/happy_backend_upload_browser.png)  
 
 :black_medium_small_square: **_handling exceptions:_**  
 
@@ -569,6 +569,10 @@ yarn add express-async-errors
 ```
 
 inside the path ```...\backend\src```, create ```errors``` folder with ```handler.ts``` file inside  
+
+![insomnia](./readme/happy_backend_insominia_upload_images_6.png)  
+
+![vsc](./readme/happy_backend_vsc_2.png)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
