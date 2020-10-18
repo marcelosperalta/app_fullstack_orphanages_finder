@@ -592,6 +592,8 @@ _after import "ValidationError" from yup:_
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_8.png)  
 
+![insomnia](./readme/happy_backend_insominia_upload_images_9.png)  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
