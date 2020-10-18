@@ -29,8 +29,8 @@ export default {
 
     },
 
-    async create(request: Request, response: Response){
-        console.log(request.files);
+    async create(request: Request, response: Response) {
+        // console.log(request.files);
 
         const {
             name,
@@ -46,6 +46,10 @@ export default {
 
         const requestImages = request.files as Express.Multer.File[];
 
+        const images = requestImages.map(image => {
+            return { path: image.filename }
+        })
+
         const orphanage = orphanagesRepository.create({
                 name,
                 latitude,
@@ -53,8 +57,8 @@ export default {
                 about,
                 instructions,
                 opening_hours,
-                open_on_weekends
-                // images
+                open_on_weekends,
+                images
         });
 
         await orphanagesRepository.save(orphanage);
