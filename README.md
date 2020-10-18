@@ -552,6 +552,11 @@ inside the path ```...\backend```, create ```uploads``` folder
 
 inside the path ```...\backend\src```, create ```views``` folder with ```orphanages_view.ts``` file inside  
 
+:rotating_light: With the views you can, for example, return a user registered on DB without showing the password.  
+
+create ```images_view.ts``` file inside the ```views``` folder  
+
+![insomnia](./readme/happy_backend_insominia_upload_images_5.png)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
