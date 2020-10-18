@@ -8,7 +8,9 @@ export default {
 
         const orphanagesRepository = getRepository(Orphanage);
 
-        const orphanages = await orphanagesRepository.find();
+        const orphanages = await orphanagesRepository.find({
+            relations: ['images']
+        });
         // with options:
         // const orphanages = await orphanagesRepository.find({
         //     where...
