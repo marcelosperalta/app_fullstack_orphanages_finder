@@ -585,6 +585,8 @@ yarn add yup
 yarn add @types/yup -D
 ```
 
+![insomnia](./readme/happy_backend_insominia_upload_images_7.png)  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  

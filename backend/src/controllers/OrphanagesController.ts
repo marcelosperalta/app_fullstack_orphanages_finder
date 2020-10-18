@@ -83,6 +83,11 @@ export default {
             )
         });
 
+        await schema.validate(data, {
+            // false = to return an error with all invalid fields
+            abortEarly: false
+        });
+
         const orphanage = orphanagesRepository.create(data);
 
         await orphanagesRepository.save(orphanage);
