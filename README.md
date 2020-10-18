@@ -584,8 +584,13 @@ inside the path ```...\backend\src```, create ```errors``` folder with ```handle
 yarn add yup
 yarn add @types/yup -D
 ```
+_before import "ValidationError" from yup:_  
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_7.png)  
+
+_after import "ValidationError" from yup:_  
+
+![insomnia](./readme/happy_backend_insominia_upload_images_8.png)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
