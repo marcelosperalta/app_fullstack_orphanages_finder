@@ -582,6 +582,7 @@ inside the path ```...\backend\src```, create ```errors``` folder with ```handle
 
 ```
 yarn add yup
+yarn add @types/yup -D
 ```
 
 <!-- ## :dvd: **_install package.json dependencies:_**
