@@ -538,7 +538,9 @@ inside the path ```...\backend```, create ```uploads``` folder
 
 :rotating_light: When you are using Insomnia and want to make tests uploading images, select the "Multipart" option in the "Body" like the example below.  
 
-![insomnia](./readme/.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images.png)  
+
+![vsc](./readme/happy_backend_vsc_1.png)  
 
 
 <!-- ## :dvd: **_install package.json dependencies:_**
