@@ -1,13 +1,15 @@
 import React from "react";
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 
-import { FiArrowLeft, FiPlus } from "react-icons/fi";
+// import { FiArrowLeft, FiPlus } from "react-icons/fi";
+import { FiPlus } from "react-icons/fi";
 
 import mapMarkerImg from '../images/map-marker.svg';
 
 import '../styles/pages/create-orphanage.css';
+import Sidebar from "../components/Sidebar";
 
 const happyMapIcon = L.icon({
   iconUrl: mapMarkerImg,
@@ -17,12 +19,16 @@ const happyMapIcon = L.icon({
   popupAnchor: [0, -60]
 })
 
-export default function CreateOrphanage() {
-  const { goBack } = useHistory();
+// export default function CreateOrphanage() {
+export default function OrphanagesMap() {
+  // const { goBack } = useHistory();
 
   return (
     <div id="page-create-orphanage">
-      <aside>
+      <Sidebar />
+
+      {/* movido para Sidebar.txt (src/components) */}
+      {/* <aside>
         <img src={mapMarkerImg} alt="Happy" />
 
         <footer>
@@ -30,7 +36,7 @@ export default function CreateOrphanage() {
             <FiArrowLeft size={24} color="#FFF" />
           </button>
         </footer>
-      </aside>
+      </aside> */}
 
       <main>
         <form className="create-orphanage-form">

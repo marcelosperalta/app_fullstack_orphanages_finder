@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-#page-orphanage aside {
+/* #page-orphanage aside {
   position: fixed;
   height: 100%;
   padding: 32px 24px;
@@ -41,7 +41,7 @@
 #page-orphanage aside footer a:hover,
 #page-orphanage aside footer button:hover {
   background: #17D6EB;
-}
+} */
 
 #page-orphanage main {
   flex: 1;

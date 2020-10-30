@@ -2,7 +2,8 @@
   display: flex;
 }
 
-#page-create-orphanage aside {
+/* movido para Sidebar.css (src/styles/components) */
+/* #page-create-orphanage aside {
   position: fixed;
   height: 100%;
   padding: 32px 24px;
@@ -40,7 +41,8 @@
 #page-create-orphanage aside footer a:hover,
 #page-create-orphanage aside footer button:hover {
   background: #17D6EB;
-}
+} */
+
 
 #page-create-orphanage main {
   flex: 1;
