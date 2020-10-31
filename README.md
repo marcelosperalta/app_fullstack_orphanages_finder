@@ -39,10 +39,6 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 
 ## :camera: **_screenshots:_**  
 
-### :iphone:  
-
-![mobile](./readme/)  
-
 ### :computer:  
 
 ![home](./readme/screenshot_web_01_home.png)  
@@ -50,12 +46,17 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 ![map](./readme/screenshot_web_02_map.png)  
 <br>
 
+### :iphone:  
+
+soon...  
+<!-- ![mobile](./readme/)   -->
+
 ## :fire: **_Source code editor_**  
 
 [Visual Studio Code](https://code.visualstudio.com/)  
 <br>
 
-## :wrench: **_tools "Front-end":_**  
+## :wrench: **_"Front-end" tools:_**  
 
 [Figma](https://www.figma.com/)  
 
@@ -74,7 +75,7 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Google Maps Platform](https://cloud.google.com/maps-platform)  
 <br>
 
-## :hammer: **_tools "Back-end":_**  
+## :hammer: **_"Back-end" tools:_**  
 
 [Node.js](https://nodejs.org/en/)  
 
@@ -103,6 +104,8 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
 [Yup](https://www.npmjs.com/package/yup)  
 
 [cors](https://www.npmjs.com/package/cors)  
+
+[axios](https://github.com/axios/axios)  
 <br>
 <!-- [Visual Studio Code Extension "SQLite"](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)   -->
 
@@ -621,9 +624,11 @@ yarn add @types/cors -D
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_12.png)  
 
-:black_medium_small_square: **_connecting the front-end to the back-end:_**  
+:black_medium_small_square: **_connecting the front-end to the back-end using [axios](https://github.com/axios/axios):_**  
 
-Note: alternatively you can use the [```fetch()```](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) method  
+_note:_ alternatively you can use the [```fetch()```](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) method  
+
+
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
