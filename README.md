@@ -624,11 +624,20 @@ yarn add @types/cors -D
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_12.png)  
 
+### :full_moon: front-end ("web" folder)
+
 :black_medium_small_square: **_connecting the front-end to the back-end using [axios](https://github.com/axios/axios):_**  
 
 _note:_ alternatively you can use the [```fetch()```](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) method  
 
+_install axios from web folder:_  
 
+```
+yarn add axios
+yarn add @types/axios -D
+```
+
+inside the path ```...\web\src```, create ```services``` folder with ```api.ts``` file inside  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
