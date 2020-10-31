@@ -621,6 +621,10 @@ yarn add @types/cors -D
 
 ![insomnia](./readme/happy_backend_insominia_upload_images_12.png)  
 
+:black_medium_small_square: **_connecting the front-end to the back-end:_**  
+
+Note: alternatively you can use the [```fetch()```](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) method  
+
 <!-- ## :dvd: **_install package.json dependencies:_**
 
 on bash / terminal  
