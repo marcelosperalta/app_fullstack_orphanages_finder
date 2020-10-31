@@ -546,15 +546,15 @@ inside the path ```...\backend```, create ```uploads``` folder
 
 :rotating_light: When you are using Insomnia and want to make tests uploading images, select the "Multipart" option in the "Body" like the example below.  
 
-![insomnia](./readme/happy_backend_insominia_upload_images.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_01.png)  
 
 ![vsc](./readme/happy_backend_vsc_1.png)  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_2.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_02.png)  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_3.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_03.png)  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_4.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_04.png)  
 
 ![beekeeper](./readme/happy_backend_beekeeper_3.png)  
 
@@ -564,7 +564,7 @@ inside the path ```...\backend\src```, create ```views``` folder with ```orphana
 
 create ```images_view.ts``` file inside the ```views``` folder  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_5.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_05.png)  
 
 ![browser](./readme/happy_backend_upload_browser.png)  
 
@@ -576,7 +576,7 @@ yarn add express-async-errors
 
 inside the path ```...\backend\src```, create ```errors``` folder with ```handler.ts``` file inside  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_6.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_06.png)  
 
 ![vsc](./readme/happy_backend_vsc_2.png)  
 
@@ -588,13 +588,13 @@ yarn add @types/yup -D
 ```
 _before import "ValidationError" from yup:_  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_7.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_07.png)  
 
 _after import "ValidationError" from yup:_  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_8.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_08.png)  
 
-![insomnia](./readme/happy_backend_insominia_upload_images_9.png)  
+![insomnia](./readme/happy_backend_insominia_upload_images_09.png)  
 
 :black_medium_small_square: **_install cors:_**  
 
@@ -602,6 +602,24 @@ _after import "ValidationError" from yup:_
 yarn add cors
 yarn add @types/cors -D
 ```
+
+:black_medium_small_square: **_delete all database using Beekeeper Studio:_**  
+
+![beekeeper](./readme/happy_backend_beekeeper_4.png)  
+
+![beekeeper](./readme/happy_backend_beekeeper_5.png)  
+
+![beekeeper](./readme/happy_backend_beekeeper_6.png)  
+
+![beekeeper](./readme/happy_backend_beekeeper_7.png)  
+
+:black_medium_small_square: **_create one Orphanage using Insomnia:_**  
+
+![insomnia](./readme/happy_backend_insominia_upload_images_10.png)  
+
+![insomnia](./readme/happy_backend_insominia_upload_images_11.png)  
+
+![insomnia](./readme/happy_backend_insominia_upload_images_12.png)  
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 

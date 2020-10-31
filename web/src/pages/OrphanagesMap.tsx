@@ -11,7 +11,7 @@ import mapMarketImg from '../images/map-marker.svg';
 import mapIcon from '../utils/mapIcon';
 
 import '../styles/pages/orphanages-map.css';
-import App from '../App';
+// import App from '../App';
 
 // movido para mapIcon.ts (src/utils)
 // const mapIcon = Leaflet.icon({
