@@ -51,12 +51,12 @@ soon...
 <br>
 <!-- ![mobile](./readme/)   -->
 
-## :fire: **_Source code editor_**  
+## :fire: **_source code editor_**  
 
 [Visual Studio Code](https://code.visualstudio.com/)  
 <br>
 
-## :wrench: **_"Front-end" tools:_**  
+## :wrench: **_front-end tools:_**  
 
 [Figma](https://www.figma.com/)  
 
@@ -75,7 +75,7 @@ soon...
 [Google Maps Platform](https://cloud.google.com/maps-platform)  
 <br>
 
-## :hammer: **_"Back-end" tools:_**  
+## :hammer: **_back-end tools:_**  
 
 [Node.js](https://nodejs.org/en/)  
 
@@ -117,7 +117,7 @@ soon...
 
 ## :books: **_important topics:_**  
 
-### Front-end
+### front-end
 
 [Representational state transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer)  
 
@@ -133,7 +133,7 @@ soon...
 
 [Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
 
-### Back-end
+### back-end
 
 [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)  
 
@@ -154,7 +154,7 @@ soon...
 
 ## :arrow_forward: **_start:_**  
 
-### Front-end ("web" folder)
+### front-end ("web" folder)
 
 :black_medium_small_square: **_creat react project adding typescript from terminal:_**  
 
@@ -223,7 +223,7 @@ yarn add leaflet react-leaflet
 yarn add @types/react-leaflet -D
 ```
 
-### Back-end ("backend" folder)
+### back-end ("backend" folder)
 
 :black_medium_small_square: **_create ```backend``` folder from terminal:_**  
 
