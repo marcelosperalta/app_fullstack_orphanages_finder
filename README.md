@@ -154,7 +154,7 @@ soon...
 
 ## :arrow_forward: **_start:_**  
 
-### front-end ("web" folder)
+### :full_moon: front-end ("web" folder)
 
 :black_medium_small_square: **_creat react project adding typescript from terminal:_**  
 
@@ -223,7 +223,7 @@ yarn add leaflet react-leaflet
 yarn add @types/react-leaflet -D
 ```
 
-### back-end ("backend" folder)
+### :new_moon: back-end ("backend" folder)
 
 :black_medium_small_square: **_create ```backend``` folder from terminal:_**  
 
