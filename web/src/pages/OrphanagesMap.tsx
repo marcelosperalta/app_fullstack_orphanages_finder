@@ -25,7 +25,7 @@ import '../styles/pages/orphanages-map.css';
 function OrphanagesMap() {
     useEffect(() => {
         api.get('orphanages').then(response => {
-            console.log(response);
+            console.log(response.data);
         });
     }, []);
 

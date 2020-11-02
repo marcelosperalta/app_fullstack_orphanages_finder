@@ -133,6 +133,8 @@ soon...
 
 [Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
 
+[React Hooks](https://reactjs.org/docs/hooks-intro.html)  
+
 ### back-end
 
 [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)  
