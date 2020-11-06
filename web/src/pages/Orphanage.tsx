@@ -3,6 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 // import { FiClock, FiInfo, FiArrowLeft } from "react-icons/fi";
 import { FiClock, FiInfo} from "react-icons/fi";
 import { Map, Marker, TileLayer } from "react-leaflet";
+import { useParams } from "react-router-dom";
 // import { useHistory } from 'react-router-dom';
 // import L from 'leaflet';
 // import mapMarkerImg from '../images/map-marker.svg';
@@ -22,23 +23,35 @@ import '../styles/pages/orphanage.css';
 // })
 
 interface Orphanage {
-  id: number;
   latitude: number;
   longitude: number;
   name: string;
+  description: string;
+  instructions: string;
+  opening_hours: string;
+  open_on_weekends: string;
+}
+
+interface OrphanageParams {
+  id: string;
 }
 
 export default function Orphanage() {
+  const params = useParams<OrphanageParams>();
   // const { goBack } = useHistory();
-  const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
+  const [orphanage, setOrphanage] = useState<Orphanage[]>([]);
 
-  console.log(orphanages);
+  // console.log(orphanage);
 
   useEffect(() => {
       api.get('orphanages').then(response => {
-          setOrphanages(response.data);
+          setOrphanage(response.data);
       });
   }, []);
+
+  if (!orphanage) {
+    return <p>Carregando...</p>;
+  }
 
   return (
     <div id="page-orphanage">
