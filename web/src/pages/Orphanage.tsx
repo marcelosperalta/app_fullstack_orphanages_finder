@@ -44,10 +44,10 @@ export default function Orphanage() {
   // console.log(orphanage);
 
   useEffect(() => {
-      api.get('orphanages').then(response => {
+      api.get(`orphanages/${params.id}`).then(response => {
           setOrphanage(response.data);
       });
-  }, []);
+  }, [params.id]);
 
   if (!orphanage) {
     return <p>Carregando...</p>;
