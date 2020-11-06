@@ -30,6 +30,9 @@ interface Orphanage {
   instructions: string;
   opening_hours: string;
   open_on_weekends: string;
+  images: Array<{
+    url: string;
+  }>;
 }
 
 interface OrphanageParams {
@@ -39,7 +42,7 @@ interface OrphanageParams {
 export default function Orphanage() {
   const params = useParams<OrphanageParams>();
   // const { goBack } = useHistory();
-  const [orphanage, setOrphanage] = useState<Orphanage[]>([]);
+  const [orphanage, setOrphanage] = useState<Orphanage>();
 
   // console.log(orphanage);
 
@@ -68,7 +71,8 @@ export default function Orphanage() {
 
       <main>
         <div className="orphanage-details">
-          <img src="https://www.gcd.com.br/wp-content/uploads/2020/08/safe_image.jpg" alt="Lar das meninas" />
+          {/* <img src="https://www.gcd.com.br/wp-content/uploads/2020/08/safe_image.jpg" alt="Lar das meninas" /> */}
+          <img src={orphanage.images[0].url} alt={orphanage.name} />
 
           <div className="images">
             <button className="active" type="button">
@@ -92,12 +96,17 @@ export default function Orphanage() {
           </div>
           
           <div className="orphanage-details-content">
-            <h1>Lar das meninas</h1>
-            <p>Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social.</p>
+            {/* <h1>Lar das meninas</h1> */}
+            <h1>{orphanage.name}</h1>
+            {/* <p>Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social.</p> */}
+            <p>
+              {orphanage.description}
+            </p>
 
             <div className="map-container">
               <Map 
-                center={[-27.2092052,-49.6401092]} 
+                // center={[-27.2092052,-49.6401092]} 
+                center={[orphanage.latitude, orphanage.longitude]} 
                 zoom={16} 
                 style={{ width: '100%', height: 280 }}
                 dragging={false}
@@ -109,7 +118,7 @@ export default function Orphanage() {
                 <TileLayer 
                   url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
                 />
-                <Marker interactive={false} icon={mapIcon} position={[-27.2092052,-49.6401092]} />
+                <Marker interactive={false} icon={mapIcon} position={[orphanage.latitude, orphanage.longitude]} />
               </Map>
 
               <footer>
