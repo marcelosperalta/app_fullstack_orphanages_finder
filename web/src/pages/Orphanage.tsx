@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 // import { FiClock, FiInfo, FiArrowLeft } from "react-icons/fi";
 import { FiClock, FiInfo} from "react-icons/fi";
@@ -6,9 +6,9 @@ import { Map, Marker, TileLayer } from "react-leaflet";
 // import { useHistory } from 'react-router-dom';
 // import L from 'leaflet';
 // import mapMarkerImg from '../images/map-marker.svg';
-
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
+import api from "../services/api";
 
 import '../styles/pages/orphanage.css';
 
@@ -21,8 +21,24 @@ import '../styles/pages/orphanage.css';
 //   popupAnchor: [0, -60]
 // })
 
+interface Orphanage {
+  id: number;
+  latitude: number;
+  longitude: number;
+  name: string;
+}
+
 export default function Orphanage() {
   // const { goBack } = useHistory();
+  const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
+
+  console.log(orphanages);
+
+  useEffect(() => {
+      api.get('orphanages').then(response => {
+          setOrphanages(response.data);
+      });
+  }, []);
 
   return (
     <div id="page-orphanage">
