@@ -47,12 +47,17 @@ export default function OrphanagesMap() {
 
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
+
+    const { latitude, longitude } = position;
+
     console.log({
-      position,
       name,
       about,
+      latitude,
+      longitude,
       instructions,
       opening_hours,
+      open_on_weekends,
     })
   }
 
@@ -127,13 +132,12 @@ export default function OrphanagesMap() {
             <div className="input-block">
               <label htmlFor="images">Fotos</label>
 
-              <div className="uploaded-image">
-
+              {/* <div className="uploaded-image"> */}
+              <div className="images-container">
+                <button type="button" className="new-image">
+                  <FiPlus size={24} color="#15b6d6" />
+                </button>
               </div>
-
-              <button className="new-image">
-                <FiPlus size={24} color="#15b6d6" />
-              </button>
             </div>
           </fieldset>
 
