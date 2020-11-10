@@ -95,7 +95,7 @@ export default function OrphanagesMap() {
               ? <Marker interactive={false} icon={mapIcon} position={[position.latitude,position.longitude]} />
               : null
               } */}
-              { position.latitude != 0 && (
+              { position.latitude !== 0 && (
                 <Marker 
                   interactive={false} 
                   icon={mapIcon} 
@@ -134,10 +134,16 @@ export default function OrphanagesMap() {
 
               {/* <div className="uploaded-image"> */}
               <div className="images-container">
-                <button type="button" className="new-image">
+                {/* <button type="button" className="new-image">
                   <FiPlus size={24} color="#15b6d6" />
-                </button>
+                </button> */}
+                <label htmlFor="image[]" className="new-image">
+                  <FiPlus size={24} color="#15b6d6" />
+                </label>
               </div>
+
+              <input multiple type="file" id="image[]"/>
+
             </div>
           </fieldset>
 
