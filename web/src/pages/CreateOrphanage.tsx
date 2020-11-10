@@ -1,4 +1,5 @@
 import React, { useState, FormEvent, ChangeEvent } from "react";
+import { useHistory } from "react-router-dom";
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
 // import L from 'leaflet';
@@ -10,6 +11,7 @@ import { FiPlus } from "react-icons/fi";
 // import mapMarkerImg from '../images/map-marker.svg';
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
+import api from "../services/api";
 
 import '../styles/pages/create-orphanage.css';
 
@@ -25,6 +27,8 @@ import '../styles/pages/create-orphanage.css';
 // export default function CreateOrphanage() {
 export default function OrphanagesMap() {
   // const { goBack } = useHistory();
+
+  const history = useHistory();
 
   const [position, setPosition] = useState({ latitude: 0, longitude: 0 })
 
@@ -65,7 +69,8 @@ export default function OrphanagesMap() {
     setPreviewImages(selectedImagesPreview);
   }
 
-  function handleSubmit(event: FormEvent) {
+  // function handleSubmit(event: FormEvent) {
+  async function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
     const { latitude, longitude } = position;
@@ -92,6 +97,11 @@ export default function OrphanagesMap() {
     //   open_on_weekends,
     //   images,
     // })
+
+    // api.post("orphanages", data).then(response => {}); //without "await"
+    await api.post("orphanages", data);
+    alert("cadastro realizado com sucesso!");
+    history.push('/app');
   }
 
   return (
