@@ -152,6 +152,39 @@ soon...
 [Model–view–controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)  
 
 [Gerenciando variáveis ambiente no NodeJS](https://blog.rocketseat.com.br/variaveis-ambiente-nodejs/)  
+
+### mobile
+
+#### _Traditional_
+
+[iOS](https://www.apple.com/ios/)  
+
+- [Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)  
+
+- [Swift](https://developer.apple.com/swift/)  
+
+[Android](https://www.android.com/)  
+
+- [Java](https://www.java.com)  
+
+- [Kotlin](https://developer.android.com/kotlin)  
+
+#### _Multiplataform_
+
+[React Native](https://reactnative.dev/)  
+
+[Flutter](https://flutter.dev/)  
+
+[NativeScript](https://nativescript.org/)  
+
+### JavaScript transcompiler
+
+[Babel](https://babeljs.io/)  
+
+### JavaScript module bundler
+
+[webpack](webpack.js.org)  
+
 <br>
 
 ## :arrow_forward: **_start:_**  
