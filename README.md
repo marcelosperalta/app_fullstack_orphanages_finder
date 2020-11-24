@@ -127,8 +127,6 @@ soon...
 
 [Single-page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application)  
 
-[Babel](https://babeljs.io/)  
-
 [Hot Reloading](https://reactnative.dev/blog/2016/03/24/introducing-hot-reloading.html#hot-reloading)  
 
 [Fast Refresh](https://reactnative.dev/docs/fast-refresh)  
