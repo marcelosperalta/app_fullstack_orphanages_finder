@@ -2,7 +2,7 @@
 
 # "Happy" - Orphanage finder  
 
-A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[React](https://reactjs.org/)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, and **[SQLite](https://www.sqlite.org/)**.  
+A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[React](https://reactjs.org/)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, **[SQLite](https://www.sqlite.org/)**, [React Native](https://reactnative.dev/), and [Expo](https://expo.io/).  
 
 <br>
 
@@ -20,8 +20,12 @@ A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)*
     <img src="./readme/logo_nodejs.png" width="70">
     &nbsp;
     <img src="./readme/logo_express.png" width="70">
-        &nbsp;
+    &nbsp;
     <img src="./readme/logo_sqlite.png" width="70">
+    &nbsp;
+    <img src="./readme/logo_react.png" width="70">
+    &nbsp;
+    <img src="./readme/logo_expo.png" width="70">
 </div>
 
 <br>
@@ -182,6 +186,10 @@ soon...
 ### JavaScript module bundler
 
 [webpack](webpack.js.org)  
+
+### Build projects to run natively on all devices
+
+[Expo](https://expo.io/)  
 
 <br>
 
@@ -671,6 +679,16 @@ yarn add @types/axios -D
 ```
 
 inside the path ```...\web\src```, create ```services``` folder with ```api.ts``` file inside  
+
+### :iphone: mobile ("..." folder)
+
+
+
+
+
+
+
+
 
 <!-- ## :dvd: **_install package.json dependencies:_**
 
