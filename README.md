@@ -2,7 +2,7 @@
 
 # "Happy" - Orphanage finder  
 
-A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[React](https://reactjs.org/)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, **[SQLite](https://www.sqlite.org/)**, [React Native](https://reactnative.dev/), and [Expo](https://expo.io/).  
+A platform to find orphanages to visit built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[React](https://reactjs.org/)**, **[Node.js](https://nodejs.org/)**, **[Express.js](https://expressjs.com/)**, **[SQLite](https://www.sqlite.org/)**, **[React Native](https://reactnative.dev/)**, and **[Expo](https://expo.io/)**.  
 
 <br>
 
