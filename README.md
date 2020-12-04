@@ -694,7 +694,7 @@ yarn global add expo-cli
 expo init mobile
 ```
 
-and choose a template "blank (TypeScript)" and press "enter"  
+choose a template "blank (TypeScript)" and press "enter"  
 
 
 
