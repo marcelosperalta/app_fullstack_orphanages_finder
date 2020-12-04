@@ -680,10 +680,21 @@ yarn add @types/axios -D
 
 inside the path ```...\web\src```, create ```services``` folder with ```api.ts``` file inside  
 
-### :iphone: mobile ("..." folder)
+### :iphone: mobile ("mobile" folder)
 
+:black_medium_small_square: **_install [Expo CLI](https://docs.expo.io/workflow/expo-cli/):_**  
 
+```
+yarn global add expo-cli
+```
 
+:black_medium_small_square: **_create "mobile" project with [Expo CLI](https://docs.expo.io/workflow/expo-cli/):_**  
+
+```
+expo init mobile
+```
+
+and choose a template "blank (TypeScript)" and press "enter"  
 
 
 
