@@ -696,7 +696,17 @@ expo init mobile
 
 choose a template "blank (TypeScript)" and press "enter"  
 
+:black_medium_small_square: **_install [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent) on your Android mobile_**  
 
+:black_medium_small_square: **_run the project:_**  
+
+```
+cd mobile
+```
+
+```
+yarn start
+```
 
 
 
