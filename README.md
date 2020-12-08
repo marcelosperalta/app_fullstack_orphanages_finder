@@ -264,6 +264,26 @@ yarn add leaflet react-leaflet
 yarn add @types/react-leaflet -D
 ```
 
+:rotating_light: *hiding your [mapbox](https://www.mapbox.com/) public token :rotating_light:
+
+*to avoid to push to GitHub or any other repository
+
+1. create a ```.env``` file inside ```web``` folder;
+
+![env](./readme/happy_frontend_env.png)
+
+2. create the variable "REACT_APP_MAPBOX_TOKEN" inside the ```.env``` file and your public token;
+
+```
+REACT_APP_MAPBOX_TOKEN=<public token>
+```
+
+![env](./readme/happy_frontend_env_token.png)
+
+3. add the ```.env``` to the ````.gitignore``` file.
+
+![env](./readme/happy_frontend_env_gitignore.png)
+
 ### :new_moon: back-end ("backend" folder)
 
 :black_medium_small_square: **_create ```backend``` folder from terminal:_**  
