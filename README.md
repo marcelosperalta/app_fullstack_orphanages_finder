@@ -280,7 +280,7 @@ REACT_APP_MAPBOX_TOKEN=<public token>
 
 ![env](./readme/happy_frontend_env_token.png)
 
-3. add the ```.env``` to the ````.gitignore``` file.
+3. add the ```.env``` file to the ```.gitignore``` file.
 
 ![env](./readme/happy_frontend_env_gitignore.png)
 
